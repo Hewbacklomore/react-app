@@ -9,10 +9,10 @@ class Definitions extends React.Component {
 
       <dl>{data.map(item => 
         
-          <div key={item.id}>
+          <React.Fragment key={item.id}>
             <dt>{item.dt}</dt>
             <dd>{item.dd}</dd>
-          </div>
+          </React.Fragment>
         
         )}</dl>
 
