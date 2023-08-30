@@ -1,12 +1,15 @@
 import React from 'react';
-import Card from './components/Card';
+import Definitions from './components/Definitions';
 
 function App() {
+
+  const definitionsList = [
+    { dt: 'one', dd: 'two', id: 1 },
+    { dt: 'another term', dd: 'another description', id: 2 },
+];
   return (
-    <div className = "App">
-      <Card title = "Title 1" />
-      <Card text = "Text 2" />
-      <Card title = "Title 3" text = "Text 3" />
+    <div className='App'>
+      <Definitions data={definitionsList} />
     </div>
   );
 }
