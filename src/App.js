@@ -1,12 +1,12 @@
 import React from 'react';
-import Progress from './components/Progress';
+import Alert from './components/Alert';
 
 function App() {
 
   
   return (
     <div className='App'>
-      <Progress percentage = {40}/>
+        <Alert type="warning" text="what is love?" />;
     </div>
   );
 }
