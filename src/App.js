@@ -1,12 +1,12 @@
 import React from 'react';
-import Alert from './components/Alert';
+import BtnGroup from './components/BtnGroup';
 
 function App() {
 
   
   return (
     <div className='App'>
-        <Alert type="warning" text="what is love?" />;
+        <BtnGroup />;
     </div>
   );
 }
