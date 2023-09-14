@@ -1,15 +1,12 @@
 import React from 'react';
-import ListGroup from './components/ListGroup';
+import BtnComponent from './components/BtnComponent';
 
 function App() {
 
   
   return (
     <div className='App'>
-        <ListGroup>
-          <p>one</p>
-          <p>two</p>
-        </ListGroup>
+        <BtnComponent />
     </div>
   );
 }
