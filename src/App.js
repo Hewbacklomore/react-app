@@ -1,12 +1,17 @@
 import React from 'react';
-import BtnComponent from './components/BtnComponent';
+import Card from './components/Card/Card';
 
 function App() {
 
   
   return (
     <div className='App'>
-        <BtnComponent />
+        <Card>
+          <Card.Body>
+              <Card.Title>Title</Card.Title>
+              <Card.Text>Text</Card.Text>
+          </Card.Body>
+        </Card>
     </div>
   );
 }
