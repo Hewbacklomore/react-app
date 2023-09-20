@@ -1,18 +1,20 @@
 import React from 'react';
-import Card from './components/Card/Card';
+import Component from './components/Component';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
 
   
   return (
     <div className='App'>
-        <Card>
-          <Card.Body>
-              <Card.Title>Title</Card.Title>
-              <Card.Text>Text</Card.Text>
-          </Card.Body>
-        </Card>
+      <div>
+       <Component>
+      
+       </Component>
     </div>
+  </div>
   );
 }
 
