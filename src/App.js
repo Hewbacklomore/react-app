@@ -1,5 +1,5 @@
 import React from 'react';
-import Component from './components/Component';
+import ToDoBox from './components/ToDoBox';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className='App'>
       <div>
-       <Component>
-      
-       </Component>
+       <ToDoBox>
+          
+       </ToDoBox>
     </div>
   </div>
   );
