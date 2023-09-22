@@ -17,7 +17,6 @@ class Component extends React.Component {
                 return response.json()
             }).then((data) => {
                 this.setState({posts: data})
-                console.log(data);
             }).catch((error) => {
                 console.error(error);
             })
