@@ -1,5 +1,5 @@
 import React from 'react';
-import Component from './components/Component';
+import MarkDownEditor from './components/MarkDownEditor';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -7,15 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   
-  return (
-    <div className='App'>
-      <div>
-       <Component>
-          
-       </Component>
-    </div>
-  </div>
-  );
+  /* return (
+    <MarkDownEditor onContentChange={console.log} />,
+    document.getElementById('root')
+  ); */
 }
 
 export default App;
